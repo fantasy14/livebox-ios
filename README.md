@@ -7,6 +7,7 @@ Live Box TV
 
 ## Why open source Live Box? 
 * We've become open source because we've become fed up of being constantly harassed by fake accounts of "Aerotv" abusing us - plus, we've not disclosed it, but they sent hackers over to target us. Plus, we've had a lot less time to work on Live box hence the shabby design and lack of channel list updates and may someone else will be able to work on the application under a new name. If anybody wishes to take over the official Live Box project, please do go ahead and DM us. Serious enquiries only.
+* IF ANYBODY WANTS TO USE A REAL IPTV SERVICE, PLEASE CHECK OUT DEXTER IPTV WHOM OFFER AN AWESOME SERVICE FOR JUST £3/MONTH AND PROVIDES ACCESS TO ALL SPORTS, ENTERTAINMENT AND MORE! JUST REMEMBER, DO NOT DONATE TO SCAMMERS, YOU KNOW WHEN YOU ARE DONATING TO SCAMMERS WHEN THEY HAVE UNRELIABLE STREAMS THAT STOP AND START. SOME THINGS IN LIFE ARE JUST TOO GOOD TO BE TRUE!
 
 ## Contact
 * Homepage: liveboxtv.gq
