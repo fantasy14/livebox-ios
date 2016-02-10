@@ -1,21 +1,21 @@
-Script Name as Headline
+Live Box TV
 ======
-**Script Name** is a script for things. The usage is explained like this:
+**Live Box for iOS** is now open sourced.
 
 ```
-$ ./script parameter1 .. parameterN
- Output
+$ pods install
 $ 
 ```
 ## Version 
-* Version X.Y
+* Version 1.2.2
 
 ## Contact
 #### Developer/Company
-* Homepage: 
-* e-mail: 
-* Twitter: [@twitterhandle](https://twitter.com/twitterhandle "twitterhandle on twitter")
+* Homepage: liveboxtv.gq
+* e-mail: admin@liveboxtv.gq
+* Twitter: [@twitterhandle](https://twitter.com/liveboxtvapp "twitterhandle on twitter")
 * other communication/social media
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=username&url=https://github.com/username/sw-name&title=sw-name&language=&tags=github&category=software) 
-
+## Usage 
+* You must use cocapods via pods install
+* You must also host a json on your web server where you will point the app to load the file from (ViewController.h)
