@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042203AA1C301150000C0B8C /* SearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042203A91C301150000C0B8C /* SearchTableViewController.m */; };
+		043096CC1C207DB500134C40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043096CB1C207DB500134C40 /* AppDelegate.m */; };
+		04874C671C455E730056F308 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04874C661C455E730056F308 /* SWRevealViewController.m */; };
+		0491EA8A1C1E0AFE002E7E1A /* UIAlertView+Blocks.h in Sources */ = {isa = PBXBuildFile; fileRef = 0491E4881C1CD053002E7E1A /* UIAlertView+Blocks.h */; };
+		0491EA8B1C1E0AFE002E7E1A /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491E4891C1CD053002E7E1A /* UIAlertView+Blocks.m */; };
+		0491EA8C1C1E0AFE002E7E1A /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 0407260D1C175ED000432A0E /* JSON.h */; };
+		0491EA8D1C1E0AFE002E7E1A /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0407260E1C175ED000432A0E /* JSON.m */; };
+		0491EA8F1C1E0AFE002E7E1A /* ProgressHUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 041FFBC71C0B740D00D58624 /* ProgressHUD.h */; };
+		0491EA901C1E0AFE002E7E1A /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 041FFBC81C0B740D00D58624 /* ProgressHUD.m */; };
+		0491EA911C1E0AFE002E7E1A /* ResizableTextCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 045EE4501C0B905C00C9518C /* ResizableTextCell.h */; };
+		0491EA921C1E0AFE002E7E1A /* ResizableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045EE4511C0B905C00C9518C /* ResizableTextCell.m */; };
+		0491EA931C1E0AFE002E7E1A /* SearchTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 0407260A1C175E8F00432A0E /* SearchTableViewController.h */; };
+		0491EA951C1E0AFE002E7E1A /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 04B299D51C0B56BE002C5027 /* ViewController.h */; };
+		0491EA961C1E0AFE002E7E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0491E9FD1C1D0F72002E7E1A /* ViewController.m */; };
+		0491EA971C1E0AFE002E7E1A /* HelpViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 042E2CA11C0BCCBC00586730 /* HelpViewController.h */; };
+		0491EA981C1E0AFE002E7E1A /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042E2CA21C0BCCBC00586730 /* HelpViewController.m */; };
+		0491EA991C1E0AFE002E7E1A /* ChannelInfoViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 045EE44C1C0B860B00C9518C /* ChannelInfoViewController.h */; };
+		0491EA9A1C1E0AFE002E7E1A /* ChannelInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045EE44D1C0B860B00C9518C /* ChannelInfoViewController.m */; };
+		0491EA9B1C1E0AFE002E7E1A /* ChannelsTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 04B29A021C0B573C002C5027 /* ChannelsTableViewCell.h */; };
+		0491EA9C1C1E0AFE002E7E1A /* ChannelsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B29A031C0B573C002C5027 /* ChannelsTableViewCell.m */; };
+		0491EA9D1C1E0AFE002E7E1A /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 04B299D21C0B56BE002C5027 /* AppDelegate.h */; };
+		0493A16C1C1E0FC300B29FC7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493A16B1C1E0FC300B29FC7 /* MobileCoreServices.framework */; };
+		0493A1711C1E0FC900B29FC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493A16E1C1E0FC900B29FC7 /* CoreVideo.framework */; };
+		0493A1721C1E0FC900B29FC7 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0493A16F1C1E0FC900B29FC7 /* VideoToolbox.framework */; };
+		0493A1731C1E101F00B29FC7 /* LiveBox.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 0491EA5B1C1DAC7D002E7E1A /* LiveBox.entitlements */; };
+		0493A1781C1E101F00B29FC7 /* UIAlertView+Blocks.h in Resources */ = {isa = PBXBuildFile; fileRef = 0491E4881C1CD053002E7E1A /* UIAlertView+Blocks.h */; };
+		0493A1791C1E101F00B29FC7 /* UIAlertView+Blocks.m in Resources */ = {isa = PBXBuildFile; fileRef = 0491E4891C1CD053002E7E1A /* UIAlertView+Blocks.m */; };
+		0493A17A1C1E101F00B29FC7 /* JSON.h in Resources */ = {isa = PBXBuildFile; fileRef = 0407260D1C175ED000432A0E /* JSON.h */; };
+		0493A17B1C1E101F00B29FC7 /* JSON.m in Resources */ = {isa = PBXBuildFile; fileRef = 0407260E1C175ED000432A0E /* JSON.m */; };
+		0493A17D1C1E101F00B29FC7 /* ProgressHUD.h in Resources */ = {isa = PBXBuildFile; fileRef = 041FFBC71C0B740D00D58624 /* ProgressHUD.h */; };
+		0493A17E1C1E101F00B29FC7 /* ProgressHUD.m in Resources */ = {isa = PBXBuildFile; fileRef = 041FFBC81C0B740D00D58624 /* ProgressHUD.m */; };
+		0493A17F1C1E101F00B29FC7 /* ResizableTextCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 045EE4501C0B905C00C9518C /* ResizableTextCell.h */; };
+		0493A1801C1E101F00B29FC7 /* ResizableTextCell.m in Resources */ = {isa = PBXBuildFile; fileRef = 045EE4511C0B905C00C9518C /* ResizableTextCell.m */; };
+		0493A1811C1E101F00B29FC7 /* SearchTableViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0407260A1C175E8F00432A0E /* SearchTableViewController.h */; };
+		0493A1831C1E101F00B29FC7 /* ViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 04B299D51C0B56BE002C5027 /* ViewController.h */; };
+		0493A1841C1E101F00B29FC7 /* ViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 0491E9FD1C1D0F72002E7E1A /* ViewController.m */; };
+		0493A1851C1E101F00B29FC7 /* HelpViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CA11C0BCCBC00586730 /* HelpViewController.h */; };
+		0493A1861C1E101F00B29FC7 /* HelpViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CA21C0BCCBC00586730 /* HelpViewController.m */; };
+		0493A1871C1E101F00B29FC7 /* ChannelInfoViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 045EE44C1C0B860B00C9518C /* ChannelInfoViewController.h */; };
+		0493A1881C1E101F00B29FC7 /* ChannelInfoViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 045EE44D1C0B860B00C9518C /* ChannelInfoViewController.m */; };
+		0493A1891C1E101F00B29FC7 /* ChannelsTableViewCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 04B29A021C0B573C002C5027 /* ChannelsTableViewCell.h */; };
+		0493A18A1C1E101F00B29FC7 /* ChannelsTableViewCell.m in Resources */ = {isa = PBXBuildFile; fileRef = 04B29A031C0B573C002C5027 /* ChannelsTableViewCell.m */; };
+		0493A18B1C1E101F00B29FC7 /* AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 04B299D21C0B56BE002C5027 /* AppDelegate.h */; };
+		0493A18D1C1E101F00B29FC7 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CCA1C0BCF0600586730 /* AppIcon.png */; };
+		0493A18E1C1E101F00B29FC7 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CA81C0BCDF700586730 /* AppIcon29x29.png */; };
+		0493A18F1C1E101F00B29FC7 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CA91C0BCDF700586730 /* AppIcon29x29@2x.png */; };
+		0493A1901C1E101F00B29FC7 /* AppIcon29x29@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAA1C0BCDF700586730 /* AppIcon29x29@2x~ipad.png */; };
+		0493A1911C1E101F00B29FC7 /* AppIcon29x29~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAB1C0BCDF700586730 /* AppIcon29x29~ipad.png */; };
+		0493A1921C1E101F00B29FC7 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAC1C0BCDF700586730 /* AppIcon40x40@2x.png */; };
+		0493A1931C1E101F00B29FC7 /* AppIcon40x40@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAD1C0BCDF700586730 /* AppIcon40x40@2x~ipad.png */; };
+		0493A1941C1E101F00B29FC7 /* AppIcon40x40~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAE1C0BCDF700586730 /* AppIcon40x40~ipad.png */; };
+		0493A1951C1E101F00B29FC7 /* AppIcon50x50@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CAF1C0BCDF700586730 /* AppIcon50x50@2x~ipad.png */; };
+		0493A1961C1E101F00B29FC7 /* AppIcon50x50~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB01C0BCDF700586730 /* AppIcon50x50~ipad.png */; };
+		0493A1971C1E101F00B29FC7 /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB11C0BCDF700586730 /* AppIcon57x57.png */; };
+		0493A1981C1E101F00B29FC7 /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB21C0BCDF700586730 /* AppIcon57x57@2x.png */; };
+		0493A1991C1E101F00B29FC7 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB31C0BCDF700586730 /* AppIcon60x60@2x.png */; };
+		0493A19A1C1E101F00B29FC7 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB41C0BCDF700586730 /* AppIcon60x60@3x.png */; };
+		0493A19B1C1E101F00B29FC7 /* AppIcon72x72@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB51C0BCDF700586730 /* AppIcon72x72@2x~ipad.png */; };
+		0493A19C1C1E101F00B29FC7 /* AppIcon72x72~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB61C0BCDF700586730 /* AppIcon72x72~ipad.png */; };
+		0493A19D1C1E101F00B29FC7 /* AppIcon76x76@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB71C0BCDF700586730 /* AppIcon76x76@2x~ipad.png */; };
+		0493A19E1C1E101F00B29FC7 /* AppIcon76x76~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E2CB81C0BCDF700586730 /* AppIcon76x76~ipad.png */; };
+		0493A19F1C1E101F00B29FC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B299D81C0B56BE002C5027 /* Main.storyboard */; };
+		0493A1A01C1E101F00B29FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B299DB1C0B56BE002C5027 /* Assets.xcassets */; };
+		0493A1A11C1E101F00B29FC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B299DD1C0B56BE002C5027 /* LaunchScreen.storyboard */; };
+		0493A1A31C1E101F00B29FC7 /* main.m in Resources */ = {isa = PBXBuildFile; fileRef = 04B299D01C0B56BE002C5027 /* main.m */; };
+		0493A1A41C1E101F00B29FC7 /* LiveBox-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 04C77A181C1E0D890051C58A /* LiveBox-Prefix.pch */; };
+		0493A1A61C1E101F00B29FC7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B299EB1C0B56BE002C5027 /* Info.plist */; };
+		04B299EA1C0B56BE002C5027 /* LiveBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B299E91C0B56BE002C5027 /* LiveBoxTests.m */; };
+		04B299F51C0B56BE002C5027 /* LiveBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B299F41C0B56BE002C5027 /* LiveBoxUITests.m */; };
+		04C77A191C1E0D8A0051C58A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B299D01C0B56BE002C5027 /* main.m */; };
+		9ABEC28DE16D404818B6F64A /* libPods-LiveBox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BF15A2F7F9D2E7FE4EE53B /* libPods-LiveBox.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B299E61C0B56BE002C5027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B299C41C0B56BE002C5027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B299CB1C0B56BE002C5027;
+			remoteInfo = LiveBox;
+		};
+		04B299F11C0B56BE002C5027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B299C41C0B56BE002C5027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B299CB1C0B56BE002C5027;
+			remoteInfo = LiveBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0407260A1C175E8F00432A0E /* SearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewController.h; sourceTree = "<group>"; };
+		0407260D1C175ED000432A0E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		0407260E1C175ED000432A0E /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
+		041FFBC61C0B740D00D58624 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ProgressHUD.bundle; path = ProgressHUD/ProgressHUD.bundle; sourceTree = "<group>"; };
+		041FFBC71C0B740D00D58624 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressHUD.h; path = ProgressHUD/ProgressHUD.h; sourceTree = "<group>"; };
+		041FFBC81C0B740D00D58624 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressHUD.m; path = ProgressHUD/ProgressHUD.m; sourceTree = "<group>"; };
+		042203A91C301150000C0B8C /* SearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewController.m; sourceTree = "<group>"; };
+		042E2CA11C0BCCBC00586730 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		042E2CA21C0BCCBC00586730 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		042E2CA81C0BCDF700586730 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		042E2CA91C0BCDF700586730 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		042E2CAA1C0BCDF700586730 /* AppIcon29x29@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x~ipad.png"; sourceTree = "<group>"; };
+		042E2CAB1C0BCDF700586730 /* AppIcon29x29~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29~ipad.png"; sourceTree = "<group>"; };
+		042E2CAC1C0BCDF700586730 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		042E2CAD1C0BCDF700586730 /* AppIcon40x40@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x~ipad.png"; sourceTree = "<group>"; };
+		042E2CAE1C0BCDF700586730 /* AppIcon40x40~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40~ipad.png"; sourceTree = "<group>"; };
+		042E2CAF1C0BCDF700586730 /* AppIcon50x50@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x~ipad.png"; sourceTree = "<group>"; };
+		042E2CB01C0BCDF700586730 /* AppIcon50x50~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50~ipad.png"; sourceTree = "<group>"; };
+		042E2CB11C0BCDF700586730 /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		042E2CB21C0BCDF700586730 /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		042E2CB31C0BCDF700586730 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		042E2CB41C0BCDF700586730 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		042E2CB51C0BCDF700586730 /* AppIcon72x72@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x~ipad.png"; sourceTree = "<group>"; };
+		042E2CB61C0BCDF700586730 /* AppIcon72x72~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72~ipad.png"; sourceTree = "<group>"; };
+		042E2CB71C0BCDF700586730 /* AppIcon76x76@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x~ipad.png"; sourceTree = "<group>"; };
+		042E2CB81C0BCDF700586730 /* AppIcon76x76~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76~ipad.png"; sourceTree = "<group>"; };
+		042E2CCA1C0BCF0600586730 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		043096CB1C207DB500134C40 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		045EE44C1C0B860B00C9518C /* ChannelInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelInfoViewController.h; sourceTree = "<group>"; };
+		045EE44D1C0B860B00C9518C /* ChannelInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelInfoViewController.m; sourceTree = "<group>"; };
+		045EE4501C0B905C00C9518C /* ResizableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResizableTextCell.h; path = ProgressHUD/ProgressHUD.bundle/ResizableTextCell.h; sourceTree = "<group>"; };
+		045EE4511C0B905C00C9518C /* ResizableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResizableTextCell.m; path = ProgressHUD/ProgressHUD.bundle/ResizableTextCell.m; sourceTree = "<group>"; };
+		04874C651C455E730056F308 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		04874C661C455E730056F308 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0491E4881C1CD053002E7E1A /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		0491E4891C1CD053002E7E1A /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		0491E4A81C1CE812002E7E1A /* ffmeg */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ffmeg; sourceTree = "<group>"; };
+		0491E4A91C1CE812002E7E1A /* PLPlayerKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PLPlayerKit; sourceTree = "<group>"; };
+		0491E9FD1C1D0F72002E7E1A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0491EA5B1C1DAC7D002E7E1A /* LiveBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LiveBox.entitlements; sourceTree = "<group>"; };
+		0491EB111C1E0D08002E7E1A /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		0491EB121C1E0D08002E7E1A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0491EB131C1E0D08002E7E1A /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		0491EB141C1E0D08002E7E1A /* libcompiler_rt.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcompiler_rt.tbd; path = usr/lib/system/libcompiler_rt.tbd; sourceTree = SDKROOT; };
+		0493A1671C1E0FAD00B29FC7 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		0493A16B1C1E0FC300B29FC7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0493A16E1C1E0FC900B29FC7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0493A16F1C1E0FC900B29FC7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		04B299CC1C0B56BE002C5027 /* LiveBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B299D01C0B56BE002C5027 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B299D21C0B56BE002C5027 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B299D51C0B56BE002C5027 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B299D91C0B56BE002C5027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B299DB1C0B56BE002C5027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B299DE1C0B56BE002C5027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B299E01C0B56BE002C5027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B299E51C0B56BE002C5027 /* LiveBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B299E91C0B56BE002C5027 /* LiveBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveBoxTests.m; sourceTree = "<group>"; };
+		04B299EB1C0B56BE002C5027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B299F01C0B56BE002C5027 /* LiveBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B299F41C0B56BE002C5027 /* LiveBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveBoxUITests.m; sourceTree = "<group>"; };
+		04B299F61C0B56BE002C5027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B29A021C0B573C002C5027 /* ChannelsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelsTableViewCell.h; sourceTree = "<group>"; };
+		04B29A031C0B573C002C5027 /* ChannelsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelsTableViewCell.m; sourceTree = "<group>"; };
+		04C77A181C1E0D890051C58A /* LiveBox-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveBox-Prefix.pch"; sourceTree = "<group>"; };
+		06589438F8A6C25D17F9D15B /* Pods-LiveBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveBox/Pods-LiveBox.debug.xcconfig"; sourceTree = "<group>"; };
+		68BF15A2F7F9D2E7FE4EE53B /* libPods-LiveBox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveBox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904EE9E92890E13DF94BC2E2 /* Pods-LiveBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveBox/Pods-LiveBox.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B299C91C0B56BE002C5027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0493A1711C1E0FC900B29FC7 /* CoreVideo.framework in Frameworks */,
+				0493A1721C1E0FC900B29FC7 /* VideoToolbox.framework in Frameworks */,
+				0493A16C1C1E0FC300B29FC7 /* MobileCoreServices.framework in Frameworks */,
+				9ABEC28DE16D404818B6F64A /* libPods-LiveBox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299E21C0B56BE002C5027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299ED1C0B56BE002C5027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040726101C175F4500432A0E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0407260A1C175E8F00432A0E /* SearchTableViewController.h */,
+				042203A91C301150000C0B8C /* SearchTableViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		042E2C9F1C0BCC7600586730 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				040726101C175F4500432A0E /* Search */,
+				042E2CA41C0BCCEA00586730 /* Main */,
+				042E2CA51C0BCCF200586730 /* Help */,
+				042E2CA61C0BCCFC00586730 /* Channel Info View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		042E2CA01C0BCC7B00586730 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0491EA151C1D8B91002E7E1A /* Support */,
+				0491E4A81C1CE812002E7E1A /* ffmeg */,
+				0491E4A91C1CE812002E7E1A /* PLPlayerKit */,
+				0491E4881C1CD053002E7E1A /* UIAlertView+Blocks.h */,
+				0491E4891C1CD053002E7E1A /* UIAlertView+Blocks.m */,
+				0407260D1C175ED000432A0E /* JSON.h */,
+				0407260E1C175ED000432A0E /* JSON.m */,
+				041FFBC61C0B740D00D58624 /* ProgressHUD.bundle */,
+				041FFBC71C0B740D00D58624 /* ProgressHUD.h */,
+				041FFBC81C0B740D00D58624 /* ProgressHUD.m */,
+				045EE4501C0B905C00C9518C /* ResizableTextCell.h */,
+				045EE4511C0B905C00C9518C /* ResizableTextCell.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		042E2CA41C0BCCEA00586730 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04B299D51C0B56BE002C5027 /* ViewController.h */,
+				0491E9FD1C1D0F72002E7E1A /* ViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		042E2CA51C0BCCF200586730 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				042E2CA11C0BCCBC00586730 /* HelpViewController.h */,
+				042E2CA21C0BCCBC00586730 /* HelpViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		042E2CA61C0BCCFC00586730 /* Channel Info View */ = {
+			isa = PBXGroup;
+			children = (
+				045EE44C1C0B860B00C9518C /* ChannelInfoViewController.h */,
+				045EE44D1C0B860B00C9518C /* ChannelInfoViewController.m */,
+			);
+			name = "Channel Info View";
+			sourceTree = "<group>";
+		};
+		042E2CA71C0BCDEC00586730 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				042E2CCA1C0BCF0600586730 /* AppIcon.png */,
+				042E2CA81C0BCDF700586730 /* AppIcon29x29.png */,
+				042E2CA91C0BCDF700586730 /* AppIcon29x29@2x.png */,
+				042E2CAA1C0BCDF700586730 /* AppIcon29x29@2x~ipad.png */,
+				042E2CAB1C0BCDF700586730 /* AppIcon29x29~ipad.png */,
+				042E2CAC1C0BCDF700586730 /* AppIcon40x40@2x.png */,
+				042E2CAD1C0BCDF700586730 /* AppIcon40x40@2x~ipad.png */,
+				042E2CAE1C0BCDF700586730 /* AppIcon40x40~ipad.png */,
+				042E2CAF1C0BCDF700586730 /* AppIcon50x50@2x~ipad.png */,
+				042E2CB01C0BCDF700586730 /* AppIcon50x50~ipad.png */,
+				042E2CB11C0BCDF700586730 /* AppIcon57x57.png */,
+				042E2CB21C0BCDF700586730 /* AppIcon57x57@2x.png */,
+				042E2CB31C0BCDF700586730 /* AppIcon60x60@2x.png */,
+				042E2CB41C0BCDF700586730 /* AppIcon60x60@3x.png */,
+				042E2CB51C0BCDF700586730 /* AppIcon72x72@2x~ipad.png */,
+				042E2CB61C0BCDF700586730 /* AppIcon72x72~ipad.png */,
+				042E2CB71C0BCDF700586730 /* AppIcon76x76@2x~ipad.png */,
+				042E2CB81C0BCDF700586730 /* AppIcon76x76~ipad.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		043096CD1C2084F200134C40 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				04B299D21C0B56BE002C5027 /* AppDelegate.h */,
+				043096CB1C207DB500134C40 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		045EE44B1C0B84FC00C9518C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				045EE44F1C0B861100C9518C /* Main screen */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		045EE44F1C0B861100C9518C /* Main screen */ = {
+			isa = PBXGroup;
+			children = (
+				04B29A021C0B573C002C5027 /* ChannelsTableViewCell.h */,
+				04B29A031C0B573C002C5027 /* ChannelsTableViewCell.m */,
+			);
+			name = "Main screen";
+			sourceTree = "<group>";
+		};
+		04874C641C455E5A0056F308 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04874C651C455E730056F308 /* SWRevealViewController.h */,
+				04874C661C455E730056F308 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		0491E4811C1CC7A9002E7E1A /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		0491EA151C1D8B91002E7E1A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				04874C641C455E5A0056F308 /* SWRevealViewController */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		04B299C31C0B56BE002C5027 = {
+			isa = PBXGroup;
+			children = (
+				04B299CE1C0B56BE002C5027 /* LiveBox */,
+				04B299E81C0B56BE002C5027 /* LiveBoxTests */,
+				04B299F31C0B56BE002C5027 /* LiveBoxUITests */,
+				04B299CD1C0B56BE002C5027 /* Products */,
+				68366F66347DC7776CF1272F /* Frameworks */,
+				1137FD648A7E5290B706007F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04B299CD1C0B56BE002C5027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B299CC1C0B56BE002C5027 /* LiveBox.app */,
+				04B299E51C0B56BE002C5027 /* LiveBoxTests.xctest */,
+				04B299F01C0B56BE002C5027 /* LiveBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B299CE1C0B56BE002C5027 /* LiveBox */ = {
+			isa = PBXGroup;
+			children = (
+				0491EA5B1C1DAC7D002E7E1A /* LiveBox.entitlements */,
+				0491E4811C1CC7A9002E7E1A /* images */,
+				042E2CA01C0BCC7B00586730 /* Extensions */,
+				042E2C9F1C0BCC7600586730 /* Views */,
+				045EE44B1C0B84FC00C9518C /* Cells */,
+				042E2CA71C0BCDEC00586730 /* Images */,
+				043096CD1C2084F200134C40 /* App Delegate */,
+				04B299CF1C0B56BE002C5027 /* Supporting Files */,
+			);
+			path = LiveBox;
+			sourceTree = "<group>";
+		};
+		04B299CF1C0B56BE002C5027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B299D81C0B56BE002C5027 /* Main.storyboard */,
+				04B299DD1C0B56BE002C5027 /* LaunchScreen.storyboard */,
+				04B299DB1C0B56BE002C5027 /* Assets.xcassets */,
+				04B299E01C0B56BE002C5027 /* Info.plist */,
+				04B299D01C0B56BE002C5027 /* main.m */,
+				04C77A181C1E0D890051C58A /* LiveBox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B299E81C0B56BE002C5027 /* LiveBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B299E91C0B56BE002C5027 /* LiveBoxTests.m */,
+				04B299EB1C0B56BE002C5027 /* Info.plist */,
+			);
+			path = LiveBoxTests;
+			sourceTree = "<group>";
+		};
+		04B299F31C0B56BE002C5027 /* LiveBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B299F41C0B56BE002C5027 /* LiveBoxUITests.m */,
+				04B299F61C0B56BE002C5027 /* Info.plist */,
+			);
+			path = LiveBoxUITests;
+			sourceTree = "<group>";
+		};
+		1137FD648A7E5290B706007F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				904EE9E92890E13DF94BC2E2 /* Pods-LiveBox.release.xcconfig */,
+				06589438F8A6C25D17F9D15B /* Pods-LiveBox.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68366F66347DC7776CF1272F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0493A16E1C1E0FC900B29FC7 /* CoreVideo.framework */,
+				0493A16F1C1E0FC900B29FC7 /* VideoToolbox.framework */,
+				0493A16B1C1E0FC300B29FC7 /* MobileCoreServices.framework */,
+				0493A1671C1E0FAD00B29FC7 /* libAFNetworking.a */,
+				0491EB111C1E0D08002E7E1A /* libc++.1.tbd */,
+				0491EB121C1E0D08002E7E1A /* libc++.tbd */,
+				0491EB131C1E0D08002E7E1A /* libc++abi.tbd */,
+				0491EB141C1E0D08002E7E1A /* libcompiler_rt.tbd */,
+				68BF15A2F7F9D2E7FE4EE53B /* libPods-LiveBox.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B299CB1C0B56BE002C5027 /* LiveBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B299F91C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBox" */;
+			buildPhases = (
+				777DCAACB7C04A9777E780AD /* Check Pods Manifest.lock */,
+				04B299C81C0B56BE002C5027 /* Sources */,
+				04B299C91C0B56BE002C5027 /* Frameworks */,
+				04B299CA1C0B56BE002C5027 /* Resources */,
+				91C98547BACFC4723488CA0D /* Embed Pods Frameworks */,
+				72689DB96585D664F54D04EA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveBox;
+			productName = LiveBox;
+			productReference = 04B299CC1C0B56BE002C5027 /* LiveBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B299E41C0B56BE002C5027 /* LiveBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B299FC1C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBoxTests" */;
+			buildPhases = (
+				04B299E11C0B56BE002C5027 /* Sources */,
+				04B299E21C0B56BE002C5027 /* Frameworks */,
+				04B299E31C0B56BE002C5027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B299E71C0B56BE002C5027 /* PBXTargetDependency */,
+			);
+			name = LiveBoxTests;
+			productName = LiveBoxTests;
+			productReference = 04B299E51C0B56BE002C5027 /* LiveBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B299EF1C0B56BE002C5027 /* LiveBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B299FF1C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBoxUITests" */;
+			buildPhases = (
+				04B299EC1C0B56BE002C5027 /* Sources */,
+				04B299ED1C0B56BE002C5027 /* Frameworks */,
+				04B299EE1C0B56BE002C5027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B299F21C0B56BE002C5027 /* PBXTargetDependency */,
+			);
+			name = LiveBoxUITests;
+			productName = LiveBoxUITests;
+			productReference = 04B299F01C0B56BE002C5027 /* LiveBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B299C41C0B56BE002C5027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Live Box";
+				TargetAttributes = {
+					04B299CB1C0B56BE002C5027 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 6GWH66MFKF;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					04B299E41C0B56BE002C5027 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04B299CB1C0B56BE002C5027;
+					};
+					04B299EF1C0B56BE002C5027 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 04B299CB1C0B56BE002C5027;
+					};
+				};
+			};
+			buildConfigurationList = 04B299C71C0B56BE002C5027 /* Build configuration list for PBXProject "LiveBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B299C31C0B56BE002C5027;
+			productRefGroup = 04B299CD1C0B56BE002C5027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B299CB1C0B56BE002C5027 /* LiveBox */,
+				04B299E41C0B56BE002C5027 /* LiveBoxTests */,
+				04B299EF1C0B56BE002C5027 /* LiveBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B299CA1C0B56BE002C5027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0493A1731C1E101F00B29FC7 /* LiveBox.entitlements in Resources */,
+				0493A1781C1E101F00B29FC7 /* UIAlertView+Blocks.h in Resources */,
+				0493A1791C1E101F00B29FC7 /* UIAlertView+Blocks.m in Resources */,
+				0493A17A1C1E101F00B29FC7 /* JSON.h in Resources */,
+				0493A17B1C1E101F00B29FC7 /* JSON.m in Resources */,
+				0493A17D1C1E101F00B29FC7 /* ProgressHUD.h in Resources */,
+				0493A17E1C1E101F00B29FC7 /* ProgressHUD.m in Resources */,
+				0493A17F1C1E101F00B29FC7 /* ResizableTextCell.h in Resources */,
+				0493A1801C1E101F00B29FC7 /* ResizableTextCell.m in Resources */,
+				0493A1811C1E101F00B29FC7 /* SearchTableViewController.h in Resources */,
+				0493A1831C1E101F00B29FC7 /* ViewController.h in Resources */,
+				0493A1841C1E101F00B29FC7 /* ViewController.m in Resources */,
+				0493A1851C1E101F00B29FC7 /* HelpViewController.h in Resources */,
+				0493A1861C1E101F00B29FC7 /* HelpViewController.m in Resources */,
+				0493A1871C1E101F00B29FC7 /* ChannelInfoViewController.h in Resources */,
+				0493A1881C1E101F00B29FC7 /* ChannelInfoViewController.m in Resources */,
+				0493A1891C1E101F00B29FC7 /* ChannelsTableViewCell.h in Resources */,
+				0493A18A1C1E101F00B29FC7 /* ChannelsTableViewCell.m in Resources */,
+				0493A18B1C1E101F00B29FC7 /* AppDelegate.h in Resources */,
+				0493A18D1C1E101F00B29FC7 /* AppIcon.png in Resources */,
+				0493A18E1C1E101F00B29FC7 /* AppIcon29x29.png in Resources */,
+				0493A18F1C1E101F00B29FC7 /* AppIcon29x29@2x.png in Resources */,
+				0493A1901C1E101F00B29FC7 /* AppIcon29x29@2x~ipad.png in Resources */,
+				0493A1911C1E101F00B29FC7 /* AppIcon29x29~ipad.png in Resources */,
+				0493A1921C1E101F00B29FC7 /* AppIcon40x40@2x.png in Resources */,
+				0493A1931C1E101F00B29FC7 /* AppIcon40x40@2x~ipad.png in Resources */,
+				0493A1941C1E101F00B29FC7 /* AppIcon40x40~ipad.png in Resources */,
+				0493A1951C1E101F00B29FC7 /* AppIcon50x50@2x~ipad.png in Resources */,
+				0493A1961C1E101F00B29FC7 /* AppIcon50x50~ipad.png in Resources */,
+				0493A1971C1E101F00B29FC7 /* AppIcon57x57.png in Resources */,
+				0493A1981C1E101F00B29FC7 /* AppIcon57x57@2x.png in Resources */,
+				0493A1991C1E101F00B29FC7 /* AppIcon60x60@2x.png in Resources */,
+				0493A19A1C1E101F00B29FC7 /* AppIcon60x60@3x.png in Resources */,
+				0493A19B1C1E101F00B29FC7 /* AppIcon72x72@2x~ipad.png in Resources */,
+				0493A19C1C1E101F00B29FC7 /* AppIcon72x72~ipad.png in Resources */,
+				0493A19D1C1E101F00B29FC7 /* AppIcon76x76@2x~ipad.png in Resources */,
+				0493A19E1C1E101F00B29FC7 /* AppIcon76x76~ipad.png in Resources */,
+				0493A19F1C1E101F00B29FC7 /* Main.storyboard in Resources */,
+				0493A1A01C1E101F00B29FC7 /* Assets.xcassets in Resources */,
+				0493A1A11C1E101F00B29FC7 /* LaunchScreen.storyboard in Resources */,
+				0493A1A31C1E101F00B29FC7 /* main.m in Resources */,
+				0493A1A41C1E101F00B29FC7 /* LiveBox-Prefix.pch in Resources */,
+				0493A1A61C1E101F00B29FC7 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299E31C0B56BE002C5027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299EE1C0B56BE002C5027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72689DB96585D664F54D04EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveBox/Pods-LiveBox-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777DCAACB7C04A9777E780AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91C98547BACFC4723488CA0D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveBox/Pods-LiveBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B299C81C0B56BE002C5027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042203AA1C301150000C0B8C /* SearchTableViewController.m in Sources */,
+				0491EA8A1C1E0AFE002E7E1A /* UIAlertView+Blocks.h in Sources */,
+				0491EA8B1C1E0AFE002E7E1A /* UIAlertView+Blocks.m in Sources */,
+				0491EA8C1C1E0AFE002E7E1A /* JSON.h in Sources */,
+				0491EA8D1C1E0AFE002E7E1A /* JSON.m in Sources */,
+				0491EA8F1C1E0AFE002E7E1A /* ProgressHUD.h in Sources */,
+				0491EA901C1E0AFE002E7E1A /* ProgressHUD.m in Sources */,
+				0491EA911C1E0AFE002E7E1A /* ResizableTextCell.h in Sources */,
+				0491EA921C1E0AFE002E7E1A /* ResizableTextCell.m in Sources */,
+				0491EA931C1E0AFE002E7E1A /* SearchTableViewController.h in Sources */,
+				0491EA951C1E0AFE002E7E1A /* ViewController.h in Sources */,
+				0491EA961C1E0AFE002E7E1A /* ViewController.m in Sources */,
+				0491EA971C1E0AFE002E7E1A /* HelpViewController.h in Sources */,
+				0491EA981C1E0AFE002E7E1A /* HelpViewController.m in Sources */,
+				0491EA991C1E0AFE002E7E1A /* ChannelInfoViewController.h in Sources */,
+				0491EA9A1C1E0AFE002E7E1A /* ChannelInfoViewController.m in Sources */,
+				0491EA9B1C1E0AFE002E7E1A /* ChannelsTableViewCell.h in Sources */,
+				0491EA9C1C1E0AFE002E7E1A /* ChannelsTableViewCell.m in Sources */,
+				043096CC1C207DB500134C40 /* AppDelegate.m in Sources */,
+				04874C671C455E730056F308 /* SWRevealViewController.m in Sources */,
+				0491EA9D1C1E0AFE002E7E1A /* AppDelegate.h in Sources */,
+				04C77A191C1E0D8A0051C58A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299E11C0B56BE002C5027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B299EA1C0B56BE002C5027 /* LiveBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B299EC1C0B56BE002C5027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B299F51C0B56BE002C5027 /* LiveBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B299E71C0B56BE002C5027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B299CB1C0B56BE002C5027 /* LiveBox */;
+			targetProxy = 04B299E61C0B56BE002C5027 /* PBXContainerItemProxy */;
+		};
+		04B299F21C0B56BE002C5027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B299CB1C0B56BE002C5027 /* LiveBox */;
+			targetProxy = 04B299F11C0B56BE002C5027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B299D81C0B56BE002C5027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B299D91C0B56BE002C5027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B299DD1C0B56BE002C5027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B299DE1C0B56BE002C5027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0491E6401C1CF433002E7E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		0491E6411C1CF433002E7E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06589438F8A6C25D17F9D15B /* Pods-LiveBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "${CONFIGURATION_BUILD_DIR}";
+				CONFIGURATION_TEMP_DIR = LiveBox.release.xcconfig;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = LiveBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-ObjC",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiveBox.LiveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveBox/LiveBox-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s i386 arm64";
+			};
+			name = Debug;
+		};
+		0491E6421C1CF433002E7E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livebox.LiveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveBox.app/LiveBox";
+			};
+			name = Debug;
+		};
+		0491E6431C1CF433002E7E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livebox.LiveBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04B299F81C0B56BE002C5027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		04B299FB1C0B56BE002C5027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 904EE9E92890E13DF94BC2E2 /* Pods-LiveBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "${CONFIGURATION_BUILD_DIR}";
+				CONFIGURATION_TEMP_DIR = LiveBox.release.xcconfig;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
+					"$(PROJECT_DIR)",
+				);
+				GCC_VERSION = "";
+				INFOPLIST_FILE = LiveBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(SDKROOT)/usr/lib/system",
+					"$(SDKROOT)/usr/lib/system/introspection",
+					"$(PROJECT_DIR)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				ON_DEMAND_RESOURCES_PREFETCH_ORDER = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"AFNetworking\"",
+					"-ObjC",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiveBox.LiveBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveBox/LiveBox-Bridging-Header.h";
+				VALID_ARCHS = "armv7 armv7s i386 arm64";
+			};
+			name = Release;
+		};
+		04B299FE1C0B56BE002C5027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livebox.LiveBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveBox.app/LiveBox";
+			};
+			name = Release;
+		};
+		04B29A011C0B56BE002C5027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.livebox.LiveBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveBox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B299C71C0B56BE002C5027 /* Build configuration list for PBXProject "LiveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B299F81C0B56BE002C5027 /* Release */,
+				0491E6401C1CF433002E7E1A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B299F91C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B299FB1C0B56BE002C5027 /* Release */,
+				0491E6411C1CF433002E7E1A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B299FC1C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B299FE1C0B56BE002C5027 /* Release */,
+				0491E6421C1CF433002E7E1A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B299FF1C0B56BE002C5027 /* Build configuration list for PBXNativeTarget "LiveBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B29A011C0B56BE002C5027 /* Release */,
+				0491E6431C1CF433002E7E1A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B299C41C0B56BE002C5027 /* Project object */;
+}

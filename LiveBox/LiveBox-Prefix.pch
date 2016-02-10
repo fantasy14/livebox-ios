@@ -1,0 +1,16 @@
+//
+//  LiveBox-Prefix.pch
+//  LiveBox
+//
+//  Created by Joshua Collishaw on 12/12/2015.
+//  Copyright © 2015 Live Box. All rights reserved.
+//
+
+#ifndef LiveBox_Prefix_h
+#define LiveBox_Prefix_h
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#endif /* LiveBox_Prefix_h */
